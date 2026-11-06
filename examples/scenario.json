@@ -1,0 +1,93 @@
+{
+  "origin": [
+    0,
+    0
+  ],
+  "kerf_mm": 3,
+  "waste_cost_per_meter": 4,
+  "travel_cost_per_km": 1.2,
+  "suppliers": [
+    {
+      "id": "timber-yard",
+      "name": "New stock yard",
+      "position": [
+        7,
+        3
+      ]
+    },
+    {
+      "id": "maker-north",
+      "name": "North makerspace",
+      "position": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "stage-shop",
+      "name": "Theater workshop",
+      "position": [
+        3,
+        1
+      ]
+    }
+  ],
+  "stock": [
+    {
+      "id": "new-01",
+      "length_mm": 3600,
+      "cost": 24,
+      "supplier": "timber-yard",
+      "material": "pine-40x40"
+    },
+    {
+      "id": "new-02",
+      "length_mm": 3600,
+      "cost": 24,
+      "supplier": "timber-yard",
+      "material": "pine-40x40"
+    },
+    {
+      "id": "north-A",
+      "length_mm": 1700,
+      "cost": 2,
+      "supplier": "maker-north",
+      "material": "pine-40x40"
+    },
+    {
+      "id": "north-B",
+      "length_mm": 1250,
+      "cost": 1,
+      "supplier": "maker-north",
+      "material": "pine-40x40"
+    },
+    {
+      "id": "stage-A",
+      "length_mm": 2150,
+      "cost": 3,
+      "supplier": "stage-shop",
+      "material": "pine-40x40"
+    },
+    {
+      "id": "stage-B",
+      "length_mm": 1450,
+      "cost": 2,
+      "supplier": "stage-shop",
+      "material": "pine-40x40"
+    }
+  ],
+  "demand": [
+    {
+      "label": "Bench rail",
+      "length_mm": 1050,
+      "quantity": 2,
+      "material": "pine-40x40"
+    },
+    {
+      "label": "Bench leg",
+      "length_mm": 450,
+      "quantity": 4,
+      "material": "pine-40x40"
+    }
+  ]
+}
