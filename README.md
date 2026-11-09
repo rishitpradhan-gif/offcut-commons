@@ -1,5 +1,7 @@
 # Offcut Commons
 
+**[Download & run locally](LOCAL.md)** — a short guide and ready-to-run ZIP.
+
 **A cutting plan and a pickup loop for the material that already exists.**
 
 Useful offcuts sit in separate workshops while builders buy new stock and make separate pickup trips. Offcut Commons couples material assignment and pickup routing: it searches for a cutting plan while accounting for the suppliers that plan requires.
